@@ -1,0 +1,11 @@
+ROW,TITLE,FIRST_NAME,LAST_NAME,STATE,YR,AGE,CALC_101_FINAL,ENG_101_FINAL,ECON_101_FINAL,STAT_201_FINAL
+1,MR.,ALAN,NISHIHARA,OR,4,22,100,100,100,100
+2,Mr.,Daniel,Smith,NY,1,18,90,80,90,200
+3,Mr.,Ben,Leibstrom,NY,1,19,80,,80,300
+4,Miss,Kavita,Kanabar,PA,1,19,,,,
+5,Miss,Linda,Thiel,CA,4,22,60,40,,
+6,Mr.,Omar,Reichel,OK,2,21,70,50,,
+7,Miss,Jane,OConner,HI,2,19,,,,
+8,Miss,Felicia,Rao,NY,3,20,,,,
+9,Miss,Rachel,Crock,FL,1,17,,60,,
+10,Mr.,Bob,McDonald,FL,1,18,98,65,,
