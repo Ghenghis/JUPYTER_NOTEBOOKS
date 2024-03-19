@@ -1,3 +1,3 @@
 string = 'Alan Nishihara'
-# characters = list(string)
-print([*characters])
+characters = list(string)
+print([characters])
