@@ -31,5 +31,5 @@ def is_strong_password(password):
         any(not char.isalnum() for char in password)
 
 # Example usage
-pw = input("Enter a password: ")
-print(is_strong_password(pw))  # False
+pw = input("\nENTER A PASSWORD: ")
+print("\nIS YOUR ENTRY A STRONG PASSWORD? ", is_strong_password(pw), "\n")
