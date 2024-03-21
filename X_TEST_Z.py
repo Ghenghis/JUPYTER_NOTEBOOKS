@@ -22,11 +22,15 @@
 
 def is_strong_password(password):
     """
-    A strong password has at least one uppercase character,
-    at least one number, and at least one special symbol.
+    A strong password has at least:
+        1.  One uppercase character
+        2.  At least one lowercase character
+        3.  At least one number
+        4.  At least one special symbol
     Return True if the password is a strong password, False if not.
     """
     return any(char.isupper() for char in password) and \
+        any(char.islower() for char in password) and \
         any(char.isdigit() for char in password) and \
         any(not char.isalnum() for char in password)
 
